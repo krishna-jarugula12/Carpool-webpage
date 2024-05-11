@@ -1,0 +1,24 @@
+.your-rides-container {
+    padding: 20px;
+  }
+  
+  .rides-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .ride-details {
+    margin: 10px;
+    padding: 20px;
+    background-color: #73a3b9;
+    border-radius: 10px;
+  }
+  
+  .ride-info {
+    padding: 10px;
+  }
+  
+  .ride-info p {
+    margin: 5px 0;
+  }
+  

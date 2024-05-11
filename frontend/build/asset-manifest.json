@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5766c46e.chunk.css",
+    "main.js": "/static/js/main.a7e12001.chunk.js",
+    "main.js.map": "/static/js/main.a7e12001.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.28bf98a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.28bf98a6.js.map",
+    "static/js/2.31fa300e.chunk.js": "/static/js/2.31fa300e.chunk.js",
+    "static/js/2.31fa300e.chunk.js.map": "/static/js/2.31fa300e.chunk.js.map",
+    "static/js/3.6d333127.chunk.js": "/static/js/3.6d333127.chunk.js",
+    "static/js/3.6d333127.chunk.js.map": "/static/js/3.6d333127.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.020bdaf0425bd5ba92f8cf5920c2562a.js": "/precache-manifest.020bdaf0425bd5ba92f8cf5920c2562a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5766c46e.chunk.css.map": "/static/css/main.5766c46e.chunk.css.map",
+    "static/js/2.31fa300e.chunk.js.LICENSE.txt": "/static/js/2.31fa300e.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/carpool image3.04c6594c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28bf98a6.js",
+    "static/js/2.31fa300e.chunk.js",
+    "static/css/main.5766c46e.chunk.css",
+    "static/js/main.a7e12001.chunk.js"
+  ]
+}

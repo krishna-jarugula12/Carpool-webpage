@@ -1,0 +1,68 @@
+/* Styling for the search bar */
+.search-bar {
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+  align-items: left;
+  margin-bottom: 20px;
+}
+
+/* Styling for the search bar for tracking */
+.search-bartrack {
+  position: fixed;
+  top: 80px; /* Adjust as needed */
+  right: 100px;
+ 
+ 
+}
+
+.search-bartrack input,
+.search-bartrack button {
+  padding: 8px 12px;
+  border: solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bartrack input {
+  width: 100px; /* Adjust width as needed */
+  margin-right: 10px;
+}
+
+.search-bartrack button {
+  background-color: #3f97f6; /* Blue color for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar input {
+  width: 8%;
+  margin-right: 10px; /* Adjust width as needed */
+}
+
+.search-bar button {
+  width: 8%;
+  margin-bottom: 10px;
+  background-color: #3f97f6; /* Blue color for the button */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styling for the list of available rides */
+.available-rides {
+  display: flex;
+  flex-wrap: wrap; 
+ 
+  /* Display rides side by side */
+}
+
+.available-rides li {
+  margin: 10px;
+  padding: 20px;
+  background-color: #8ea0b2be;
+ /* Sky blue color border */
+  border-radius: 10px;
+  list-style-type: none;
+}

@@ -1,0 +1,62 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Prevent scrolling of the page content */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-image: url("Gemini_Generated_Image_ifliviifliviifli.jpeg");
+    background-size: cover; /* Ensure the background image fits within the container */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    background-position: center; /* Center the background image */
+    max-width: 150%;
+    height: 100vh; /* Set the height to match the viewport height */
+    overflow: hidden; /* Prevent scrolling within the container */
+}
+
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2 {
+    position: center; /* This property does not exist in CSS */
+    align-items: top; /* This property will not work as expected */
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #033263;
+    border: 10px solid #033263;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* This property does not apply to the container element */
+    }
+}

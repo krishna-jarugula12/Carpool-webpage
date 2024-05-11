@@ -1,0 +1,64 @@
+.container3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    height: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align text to the left */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .container3 h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    flex: 0 0 auto;
+    text-align: left;
+    width: 150px; /* Set a fixed width for labels */
+  }
+  
+  .form-group input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 170px); /* Adjust width to accommodate label width and margin */
+    margin-left: 20px; /* Add margin to separate input from label */
+  }
+  
+  .submit-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .submit-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
